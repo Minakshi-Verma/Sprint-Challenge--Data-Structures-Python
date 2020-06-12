@@ -74,7 +74,7 @@ new_tree = BSTNode('tree')
 for name in names_1:
     new_tree.insert(name)
 
-for name_2 in names_2:
+for name in names_2:
     if new_tree.contains(name):
         duplicates.append(name) 
 
